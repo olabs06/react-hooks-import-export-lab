@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
-import username from  "./username";
-import city from  "./Aboutcity";
+import username from  "../data/username";
+import city from  "../data/city";
 
 function Home() {
   return (
