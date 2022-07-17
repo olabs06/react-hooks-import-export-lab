@@ -1,4 +1,5 @@
 import React from "react";
+import username from username
 
 function NavBar() {
   return (
@@ -7,3 +8,4 @@ function NavBar() {
     </nav>
   );
 }
+export default NavBar;

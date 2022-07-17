@@ -1,4 +1,6 @@
 import React from "react";
+import NavBar from "./NavBar";
+import image from  "./image.js";
 
 function About() {
   return (
@@ -9,3 +11,4 @@ function About() {
     </div>
   );
 }
+export default About;
