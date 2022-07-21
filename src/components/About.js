@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import image from  "./image.js";
+import {image} from  "../data/user";
 
 function About() {
   return (
@@ -8,6 +8,7 @@ function About() {
       <h2>About Me</h2>
       <p>I Made This</p>
       <img src={image} alt="I made this" />
+      <NavBar />
     </div>
   );
 }

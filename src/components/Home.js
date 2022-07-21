@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
-import username from  "../data/username";
-import city from  "../data/city";
+import {username} from  "../data/user";
+import {city} from  "../data/user";
 
 function Home() {
   return (
@@ -10,6 +10,7 @@ function Home() {
         {username} is a Web Developer from {city}
         <username />
         <city />
+        <NavBar />
       </h1>
     </div>
   );
